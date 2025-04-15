@@ -28,28 +28,30 @@ Manual resume screening is tedious and error-prone. Recruiters spend hours filte
 
 ## 📁 Folder Structure
 
-AI-Powered-Job-Screening/ 
-│ 
-├── app.py # Main Streamlit app 
-├── utils.py # Helper functions (text extraction, scoring, etc.) 
-|
-├── data/ 
-│ ├── resumes/ # Uploaded resumes (PDF/DOCX) 
-│ ├── job_descriptions/ # Uploaded JDs (PDF/TXT) 
-├── database/ 
-│ ├── screening.db # SQLite DB for saved results 
-├── README.md # You're here!
+AI-Powered-Job-Screening/
+│
+├── app.py                     # 🎯 Main Streamlit web app
+├── utils.py                   # 🛠️ Helper functions (text parsing, similarity scoring, etc.)
+│
+├── data/
+│   ├── resumes/               # 📄 Uploaded resumes (PDF/DOCX files)
+│   └── job_descriptions/      # 📃 Uploaded job descriptions (PDF/TXT files)
+│
+├── database/
+│   └── screening.db           # 🗄️ SQLite database for storing screening results
+│
+└── README.md                  # 📘 Project documentation (you’re here!)
+
 
 🧠 How It Works
-Extracts text from both the JD and resume
 
-Uses TF-IDF vectorization to compare similarity
+1. Extracts text from both the JD and resume
+2. Uses TF-IDF vectorization to compare similarity
+3. Shortlists candidates based on a match threshold
+4. Optionally, GPT agents can improve scoring and email drafting
 
-Shortlists candidates based on a match threshold
-
-Optionally, GPT agents can improve scoring and email drafting
 
 📬 Contact
-For any queries, reach out to:
 
+For any queries, reach out to:
 Sakshi Jadhav – sakshijad937@gmail.com
