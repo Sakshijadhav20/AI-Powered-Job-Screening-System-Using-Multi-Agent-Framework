@@ -28,7 +28,17 @@ Manual resume screening is tedious and error-prone. Recruiters spend hours filte
 
 ## 📁 Folder Structure
 
-AI-Powered-Job-Screening/ │ ├── app.py # Main Streamlit app ├── utils.py # Helper functions (text extraction, scoring, etc.) ├── data/ │ ├── resumes/ # Uploaded resumes (PDF/DOCX) │ └── job_descriptions/ # Uploaded JDs (PDF/TXT) ├── database/ │ └── screening.db # SQLite DB for saved results └── README.md # You're here!
+AI-Powered-Job-Screening/ 
+│ 
+├── app.py # Main Streamlit app 
+├── utils.py # Helper functions (text extraction, scoring, etc.) 
+|
+├── data/ 
+│ ├── resumes/ # Uploaded resumes (PDF/DOCX) 
+│ ├── job_descriptions/ # Uploaded JDs (PDF/TXT) 
+├── database/ 
+│ ├── screening.db # SQLite DB for saved results 
+├── README.md # You're here!
 
 🧠 How It Works
 Extracts text from both the JD and resume
