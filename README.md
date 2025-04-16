@@ -41,7 +41,7 @@ AI-Powered-Job-Screening/
 
 
 
-🧠 How It Works
+##🧠 How It Works
 
 1. Extracts text from both the JD and resume
 2. Uses TF-IDF vectorization to compare similarity
@@ -49,19 +49,19 @@ AI-Powered-Job-Screening/
 4. Optionally, GPT agents can improve scoring and email drafting
 
 
-📌 Future Enhancements
+##📌 Future Enhancements
 
 1. Resume and JD parsing using LangChain Agents
 2. Cloud-based storage and database
 3. Support for bulk screening
 4. Enhanced UI/UX with animations
 
-🙌 Acknowledgements
+##🙌 Acknowledgements
 
 This project draws inspiration from open-source projects and aims to assist HR professionals and recruiters with intelligent resume screening.
 
 
-📬 Contact
+##📬 Contact
 
 For any queries, reach out to:
 Sakshi Jadhav – sakshijad937@gmail.com
