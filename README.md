@@ -30,17 +30,15 @@ Manual resume screening is tedious and error-prone. Recruiters spend hours filte
 
 AI-Powered-Job-Screening/
 │
-├── app.py                     # 🎯 Main Streamlit web app
-├── utils.py                   # 🛠️ Helper functions (text parsing, similarity scoring, etc.)
-│
+├── app.py                 # Main Streamlit app
+├── utils.py               # Helper functions (text extraction, scoring, etc.)
 ├── data/
-│   ├── resumes/               # 📄 Uploaded resumes (PDF/DOCX files)
-│   └── job_descriptions/      # 📃 Uploaded job descriptions (PDF/TXT files)
-│
+│   ├── resumes/           # Uploaded resumes (PDF/DOCX)
+│   └── job_descriptions/  # Uploaded JDs (PDF/TXT)
 ├── database/
-│   └── screening.db           # 🗄️ SQLite database for storing screening results
-│
-└── README.md                  # 📘 Project documentation (you’re here!)
+│   └── screening.db       # SQLite DB for saved results
+└── README.md              # You're here!
+
 
 
 🧠 How It Works
@@ -49,6 +47,18 @@ AI-Powered-Job-Screening/
 2. Uses TF-IDF vectorization to compare similarity
 3. Shortlists candidates based on a match threshold
 4. Optionally, GPT agents can improve scoring and email drafting
+
+
+📌 Future Enhancements
+
+1. Resume and JD parsing using LangChain Agents
+2. Cloud-based storage and database
+3. Support for bulk screening
+4. Enhanced UI/UX with animations
+
+🙌 Acknowledgements
+
+This project draws inspiration from open-source projects and aims to assist HR professionals and recruiters with intelligent resume screening.
 
 
 📬 Contact
